@@ -1,7 +1,10 @@
 import math
+
 task = input("Виберіть дію: +, -, *, /, корінь(\), степінь(^) ")
+
 num1 = int(input("Введіть перше число: "))
 num2 = int(input("Введіть друге число: "))
+
 match task:
     case "+":
         print("Результат: ", num1 + num2)
