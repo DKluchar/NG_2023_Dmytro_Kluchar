@@ -1,9 +1,9 @@
-gradus = int(input("Введіть градус для переводу: "))
+gradus = int(input("Enter the degree to translate: "))
 
-CorF = int(input("Перевести з Цельсія чи з Фаренгейта? Цельсія - 1, Фаренгейта - 2: "))
+CorF = int(input("Convert from degrees Celsius or Fahrenheit? Celsius - 1, Fahrenheit - 2: "))
 if CorF == 1:
-    print("За градусом Фаренгейта:", (gradus * 9 / 5) + 32)
+    print("Celsius:", (gradus * 9 / 5) + 32)
 elif CorF == 2:
-    print("За радусом Цельсія:", (gradus - 32) * 5 / 9)
+    print("Fahrenheit:", (gradus - 32) * 5 / 9)
 else:
-    print("Ви вибрали некоректне число.")
+    print("Incorrect number.")

@@ -1,3 +1,3 @@
-el = input("Введіть різні елементи: ")
-s = set(el)
-print(s)
+elements = input("Enter different elements: ")
+total = set(elements)
+print(total)

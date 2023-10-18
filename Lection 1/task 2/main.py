@@ -1,3 +1,3 @@
-a = int(input("Введіть перше число: "))
-b = int(input("Введіть друге число: "))
-print("Ваша сума чисел:", a + b)
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+print("Your sum of numbers:", num1 + num2)
